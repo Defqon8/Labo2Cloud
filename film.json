@@ -1,0 +1,269 @@
+{
+	"Films": {
+        "ID": "5",
+        "Title": "The Package",
+        "LandOfOrigin": "Africa",
+        "MinAge": "18",
+        "Ratingon100": "98",
+        "Duration": "150",
+        "Director": "Elon Musk"
+	}
+}
+
+
+{
+	"Films":
+            [{
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk"
+            },
+            {
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk"
+            },
+            {
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk"
+            }]
+}
+
+
+
+
+{
+	"Films:":{
+            "Film 1": {
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk",
+                "cinema":[{
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                }]
+            },
+            "Film 2": {
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk",
+                "cinema":[{
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                }]
+            },
+            "Film 3": {
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk",
+                "cinema":[{
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904"
+                }]
+            }
+        }
+    
+}
+
+
+
+
+{
+
+	"Films:":{
+            "Film 1": {
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk",
+                "cinema":[{
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                }]
+            },
+            "Film 2": {
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk",
+                "cinema":[{
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                }]
+            },
+            "Film 3": {
+                "ID": "5",
+                "Title": "The Package",
+                "LandOfOrigin": "Africa",
+                "MinAge": "18",
+                "Ratingon100": "98",
+                "Duration": "150",
+                "Director": "Elon Musk",
+                "cinema":[{
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                },
+                {
+                    "naam": "kinepôlis",
+                    "stad" : "kortrijk",
+                    "Postcode": "8904",
+                    "Vertoning":[{
+                        "uur":"13u",
+                        "dag":"maandag"
+                    },{
+                        "uur":"14u",
+                        "dag":"maandag"
+                    }]
+                }]
+            }
+        }
+    
+}
