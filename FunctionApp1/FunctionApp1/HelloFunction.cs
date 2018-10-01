@@ -31,10 +31,10 @@ namespace FunctionApp1
         }
 
         [FunctionName("TestParams")]
-        public static async Task<IActionResult> RunParam([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "naam/{name}")]HttpRequest req, String name, ILogger log)
+        public static async Task<IActionResult> RunParam([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "naam/{name}/{age}")]HttpRequest req, String name,int age, ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
-            return new OkObjectResult("Hello, " + name);
+            return new OkObjectResult("Hello, " + name+ ", you are " + age + " years old");
         }
     }
 }
