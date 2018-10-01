@@ -18,9 +18,26 @@ namespace FunctionApp1
         public static async Task<IActionResult>Calc([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "calculator/som/{number1}/{number2}")]HttpRequest req,int number1, int number2, ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
-            int som = number1 + number2;
-            return new OkObjectResult(som);
+            //int som = number1 + number2;
+            decimal verschil = number1 - number2;
+            try
+            {
+                if (number2 == 0)
+                {
+                    return new BadRequestResult();
+                }
+            }
+            catch(Exception ex)
+            {
+                return new StatusCodeResult(500);
+            }
+
             
+
+            //return new OkObjectResult(som);
+            return new OkObjectResult(verschil);
+
+
         }
     }
 }
