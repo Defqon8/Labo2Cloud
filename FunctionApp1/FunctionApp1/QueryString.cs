@@ -12,7 +12,7 @@ using Newtonsoft.Json;
 
 namespace FunctionApp1
 {
-    public static class Function1
+    public static class Function3
     {
         [FunctionName("History")]
         public static async Task<IActionResult> History([HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)]HttpRequest req, ILogger log)
