@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FunctionApp1",
+    "\\FunctionApp1\\FunctionApp1"
   ],
-  "SelectedNode": "\\film.json",
+  "SelectedNode": "\\FunctionApp1\\FunctionApp1.sln",
   "PreviewInSolutionExplorer": false
 }
